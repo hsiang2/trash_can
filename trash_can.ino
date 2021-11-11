@@ -9,7 +9,7 @@ Servo myservo;
 void setup()
 {
   Serial.begin(115200);
-  myservo.attach(13); // 連接數位腳位9，伺服馬達的訊號線
+  myservo.attach(13); // 連接數位腳位13，伺服馬達的訊號線
 }
 
 int distance() {
